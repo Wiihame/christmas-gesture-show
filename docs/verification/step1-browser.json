@@ -1,0 +1,58 @@
+{
+  "url": "http://127.0.0.1:4173/",
+  "recordedAt": "2026-11-21T14:32:41.971Z",
+  "physicalCameraTested": false,
+  "checks": [
+    "denied-permission-recovery",
+    "two-hands",
+    "21-landmarks-per-hand",
+    "open-palm",
+    "closed-fist",
+    "pointing-up",
+    "repeated-start-stop",
+    "video-track-release"
+  ],
+  "results": [
+    {
+      "filename": "official-right_hands.jpg",
+      "expectedGesture": "Open_Palm",
+      "inferenceMs": 110.20000004768372,
+      "hands": [
+        {
+          "gesture": "Open_Palm",
+          "confidence": 0.6024970412254333,
+          "landmarkCount": 21
+        },
+        {
+          "gesture": "None",
+          "confidence": 0.5911839604377747,
+          "landmarkCount": 21
+        }
+      ]
+    },
+    {
+      "filename": "official-fist.jpg",
+      "expectedGesture": "Closed_Fist",
+      "inferenceMs": 90.70000004768372,
+      "hands": [
+        {
+          "gesture": "Closed_Fist",
+          "confidence": 0.8999749422073364,
+          "landmarkCount": 21
+        }
+      ]
+    },
+    {
+      "filename": "official-pointing_up.jpg",
+      "expectedGesture": "Pointing_Up",
+      "inferenceMs": 88.5,
+      "hands": [
+        {
+          "gesture": "Pointing_Up",
+          "confidence": 0.8303104043006897,
+          "landmarkCount": 21
+        }
+      ]
+    }
+  ]
+}

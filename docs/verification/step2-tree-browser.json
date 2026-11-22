@@ -1,0 +1,22 @@
+{
+  "url": "http://127.0.0.1:4173/",
+  "recordedAt": "2026-11-21T15:06:09.716Z",
+  "checks": [
+    "single-renderer-canvas",
+    "lights-toggle",
+    "snow-toggle",
+    "rotation-toggle",
+    "replay-without-extra-canvas",
+    "pointer-orbit-input"
+  ],
+  "contextRestoreTested": true,
+  "state": {
+    "lights": "true",
+    "snow": "true",
+    "autoRotate": "true",
+    "sceneStatus": "ready",
+    "reveal": "1.000",
+    "replayCount": "2",
+    "ready": "true"
+  }
+}

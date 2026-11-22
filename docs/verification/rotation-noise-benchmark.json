@@ -1,0 +1,29 @@
+{
+  "recordedAt": "2026-11-21T17:26:50.513Z",
+  "inputMode": "synthetic-landmark-contract",
+  "physicalCameraTested": false,
+  "noiseDefinition": "Uniform independent x/y noise, plus or minus normalized coordinates. Pixel equivalents use image height 480.",
+  "sampleIntervalMs": 50,
+  "circleRadius": 0.07,
+  "turns": 3,
+  "seed": 42,
+  "clean": {
+    "before": 0.9888888888888888,
+    "after": 0.9666666666666645
+  },
+  "noisy": {
+    "noiseAmplitude": 0.001,
+    "noisePixelsAt480": 0.48,
+    "before": 0.2191449697077965,
+    "after": 0.9640485175136104
+  },
+  "regressionCommand": "npm test",
+  "scope": "Angular tracking and progress retention; this is not model recognition accuracy.",
+  "thresholds": {
+    "pointingClassification": 0.3,
+    "handDetection": 0.35,
+    "handPresence": 0.35,
+    "handTracking": 0.35
+  },
+  "notes": "Initial arc confirmation is excluded from progress; the ideal path is not retroactively integrated. All values are synthetic angular integration, not camera recognition accuracy."
+}
