@@ -9,3 +9,4 @@ public/mediapipe/
 .env.*
 !.env.example
 tests/fixtures/*.jpg
+.wrangler/
