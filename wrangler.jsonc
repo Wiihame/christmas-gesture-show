@@ -1,0 +1,12 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  // Cloudflare 上的 Worker 名称；如与仪表盘中的项目名不一致，请改成项目名。
+  "name": "christmas-gesture-show",
+  "compatibility_date": "2026-11-23",
+  // `npm run build` 输出的纯静态站点作为 Workers Static Assets 部署。
+  "assets": {
+    "directory": "./dist"
+  },
+  // Workers Builds 的预览构建默认执行 `npx wrangler preview`，此块为必填（可以为空）。
+  "previews": {}
+}
